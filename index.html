@@ -4,3 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patch Manager - Gerenciamento de Patch Panels</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        header .emoji {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .content {
+            padding: 50px 40px;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .feature-card {
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        .tech-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 10px;
+        }
+        footer {
+            background: #f8f9ff;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="emoji">🔌</span>
+            <h1>Patch Manager</h1>
+            <p>Sistema profissional para gerenciamento de patch panels</p>
+        </header>
+        <div class="content">
+            <section class="section">
+                <h2>📱 Sobre o Projeto</h2>
+                <p>O Patch Manager é um aplicativo React Native para gerenciamento de patch panels de redes.</p>
+            </section>
+            <section class="section">
+                <h2>✨ Funcionalidades</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>🏢 Gerenciar Salas</h3>
+                        <p>Organize seus patch panels por salas.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🔗 Documentar Conexões</h3>
+                        <p>Registre todas as conexões.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🔍 Busca Inteligente</h3>
+                        <p>Encontre portas rapidamente.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h2>💻 Tecnologias</h2>
+                <span class="tech-badge">React Native</span>
+                <span class="tech-badge">Expo</span>
+                <span class="tech-badge">JavaScript</span>
+            </section>
+            <section class="section">
+                <h2>🚀 Comece Agora</h2>
+                <a href="https://github.com/testes-app/patch-manager" class="btn">Ver no GitHub</a>
+            </section>
+        </div>
+        <footer>
+            <p><strong>Patch Manager</strong> - Desenvolvido com ❤️</p>
+            <p>© 2026 Patch Manager</p>
+        </footer>
+    </div>
+</body>
+</html>
