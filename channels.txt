@@ -1,0 +1,13 @@
+
+Channel:
+Name    production
+ID      019c25ec-adb9-7273-b311-b0d6e7b0f6fb
+Status  Active
+
+Branches pointed at this channel and their most recent update group:
+
+Branch           production
+Platforms        android, ios
+Runtime Version  1.0.0
+Message          "Fix house association and direct port link" (4 minutes ago by cornellllio)
+Group ID         8b088ed7-3081-46c0-a264-eb45a3082152
